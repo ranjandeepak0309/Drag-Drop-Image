@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./image/wallpap.jpg");
+    width:cover;
+    display: flex;
+    justify-content: center;
+   
+}
+.container{
+    width:50%;
+    height: 500px;
+    background-color: antiquewhite;
+    /* height:auto; */
+    border:2px solid burlywood;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+   
+}
+.heading{
+    color: red;
+    
+}
+p{
+    display: inline-block;
+    font-weight: 600;
+    color: darkslategrey;
+    margin-right: 5px;
+   
+}
+.drag-box{
+    width:300px;
+    height: 150px;
+    border: 3px dashed rgb(201, 76, 76);
+    /* padding: 70px; */
+    border-radius: 10px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
+
